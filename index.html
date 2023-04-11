@@ -1,0 +1,67 @@
+<h1>Implant Quiz</h1>
+<div id="sleep-apnea-quiz">
+	<form action="" class="forms" method="post">
+		<input name="first_name" required="true" type="text" placeholder="First Name">
+		<input name="last_name" type="text" placeholder="Last Name">
+		<input name="email" required="true" type="text" placeholder="Email Address">
+		<input name="phone" type="text" required="true" placeholder="Phone Number">
+		<div id="questions">
+            <div>
+                <label for="affected">Are You Affected by Any of the Following Conditions?</label>
+                <div class="answers">
+                    <span><input name="affected" type="radio" value="Missing a Single Tooth">Missing a Single Tooth</span>
+                    <span><input name="affected" type="radio" value="Missing Multiple Teeth">Missing Multiple Teeth</span>
+                    <span><input name="affected" type="radio" value="Poor Fitting Traditional Dentures">Poor Fitting Traditional Dentures</span>
+                    <span><input name="affected" type="radio" value="Most teeth in bad shape">Most teeth in bad shape</span>
+                    <span><input name="affected" type="radio" value="None">None</span>
+                </div>
+            </div>
+            <div>
+                <label for="cant_enjoy_certain_foods">Is There A Certain Food You Can't Enjoy Because Of Missing Teeth?</label>
+                <div class="answers">
+                    <span><input name="cant_enjoy_certain_foods" type="radio" value="Steak Dinner">Steak Dinner</span>
+                    <span><input name="cant_enjoy_certain_foods" type="radio" value="Apples or other hard fruit">Apples or other hard fruit</span>
+                    <span><input name="cant_enjoy_certain_foods" type="radio" value="Popcorn, nuts, or other snacks">Popcorn, nuts, or other snacks</span>
+                    <span><input name="cant_enjoy_certain_foods" type="radio" value="Something Else">Something Else</span>
+                    <span><input name="cant_enjoy_certain_foods" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="need_relief_from_pain">Do You Currently Need Relief from Pain or Discomfort?</label>
+                <div class="answers">
+                    <span><input name="need_relief_from_pain" type="radio" value="Yes">Yes</span>
+                    <span><input name="need_relief_from_pain" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="hiding_smile">Do You Find Yourself Hiding Your Smile In Public?</label>
+                <div class="answers">
+                    <span><input name="hiding_smile" type="radio" value="Yes">Yes</span>
+                    <span><input name="hiding_smile" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="payment_plan">Are You Interested in a Cost-Effective Payment Plan For Financing Dental Implants?</label>
+                <div class="answers">
+                    <span><input name="payment_plan" type="radio" value="Yes, I could afford up to $100 per month.">Yes, I could afford up to $100 per month.</span>
+                    <span><input name="payment_plan" type="radio" value="Yes, I could afford up to $200 per month.">Yes, I could afford up to $200 per month.</span>
+                    <span><input name="payment_plan" type="radio" value="Yes, I could afford up to $300 per month.">Yes, I could afford up to $300 per month.</span>
+                    <span><input name="payment_plan" type="radio" value="I don't need a payment plan">I don't need a payment plan</span>
+                </div>
+            </div>
+            <div>
+                <label for="anything_preventing_restoration">Is There Anything Keeping You from Restoring Your Smile?</label>
+                <div class="answers">
+                    <span><input name="anything_preventing_restoration" type="radio" value="No! I'm ready to fix my smile today.">No! I'm ready to fix my smile today.</span>
+                    <span><input name="anything_preventing_restoration" type="radio" value="Cost of treatment">Cost of treatment</span>
+                    <span><input name="anything_preventing_restoration" type="radio" value="Fear of the dentist">Fear of the dentist</span>
+                    <span><input name="anything_preventing_restoration" type="radio" value="Time commitment">Time commitment</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn">Submit</button>
+		<input name="_redirect" type="hidden" value="thanks.html">
+		<input name="_subject" type="hidden" value="LP Implant Quiz">
+	</form>
+</div>
